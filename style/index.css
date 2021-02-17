@@ -1,0 +1,95 @@
+h1
+{
+    font-size: 50px; /* Titres de 40 pixels */
+}
+
+
+/*Pseudo Invisible*/
+.pseudo
+{
+    color: red;
+    text-decoration:none;
+    
+
+}
+
+.pseudo:hover
+{
+    color : orange;
+}
+
+/*Logo Invisible*/
+
+.logo
+{
+    color: orange;
+    text-decoration:none;
+}
+
+.logo:hover
+{
+    color : yellow;
+}
+
+/*text de couleur*/
+
+.couleur
+{
+    color: yellow;
+    text-decoration:none;
+}
+
+.couleur:hover
+{
+    color : lightgreen;
+}
+
+
+/*Message Invisible*/
+.message
+{
+    color: lightgreen;
+    text-decoration:none;
+}
+
+.message:hover
+{
+    color : green;
+}
+
+
+/*header*/	
+.header
+{background-color:#201c24;}
+
+header{
+    background-color: yellow;
+}
+
+/*font*/
+@font-face {
+    font-family: 'whitney-mediumregular';
+    src: url('font/whitney-medium-webfont.woff2') format('woff2'),
+         url('font/whitney-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family: 'whitney-mediumregular';
+    background-color:#36393F;
+}
+
+/*bouton*/
+#scroll_to_top {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    bottom: 50px;
+    right: 30px;
+  }
+  #scroll_to_top img {
+    width: 30px;
+  }
+      

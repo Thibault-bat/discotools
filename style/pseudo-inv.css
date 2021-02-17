@@ -1,0 +1,84 @@
+h1
+{
+    font-size: 50px; /* Titres de 40 pixels */
+}
+
+
+.aide{
+    color:yellow
+}
+/*Pseudo Invisible*/
+.pseudo
+{
+    color: red;
+    text-decoration:none;
+    
+
+}
+
+.pseudo:hover
+{
+    color : rgb(255, 0, 0);
+}
+
+/*Logo Invisible*/
+
+.logo
+{
+    color: orange;
+    text-decoration:none;
+}
+
+.logo:hover
+{
+    color : yellow;
+}
+
+/*text de couleur*/
+
+.couleur
+{
+    color: yellow;
+    text-decoration:none;
+}
+
+.couleur:hover
+{
+    color : lightgreen;
+}
+
+
+/*Message Invisible*/
+.message
+{
+    color: lightgreen;
+    text-decoration:none;
+}
+
+.message:hover
+{
+    color : green;
+}
+
+
+/*header*/	
+.header
+{background-color:#201c24;}
+
+header{
+    background-color: rgb(255, 0, 0);
+}
+/*font*/
+@font-face {
+    font-family: 'whitney-mediumregular';
+    src: url('../font/whitney-medium-webfont.woff2') format('woff2'),
+         url('../font/whitney-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family: 'whitney-mediumregular';
+    background-color:#36393F;
+}
